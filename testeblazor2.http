@@ -1,0 +1,10 @@
+@testeblazor2_HostAddress = https://localhost:7217
+
+GET {{testeblazor2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{testeblazor2_HostAddress}}/weatherforecast
+
+###
